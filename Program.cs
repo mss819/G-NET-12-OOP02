@@ -52,6 +52,15 @@
             //c) اه ممكن
             #endregion
 
+            #region Quesion 4
+
+            //a)static → مش تابع object، تابع الكلاس كله
+            //Item → لكل object قيمة لوحده
+            //b) لأ
+            //لأن static method مش شايفة non-static members
+
+            #endregion
+
         }
     }
 }
