@@ -18,6 +18,27 @@
              */
 
             #endregion
-        }
+
+            #region Quesion 2
+
+            // Field → متغير عادي
+            //Property → فيها logic(get / set)
+            //example:
+        //    private double price;
+
+        //public double Price
+        //{
+        //    get { return price; }
+        //    set { if (value > 0) price = value; }
+        //}
+
+        //public double PriceAfterTax
+        //{
+        //    get { return price * 1.14; }
+        //}
+
+            #endregion
+
+    }
     }
 }
