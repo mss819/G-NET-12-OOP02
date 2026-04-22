@@ -24,21 +24,34 @@
             // Field → متغير عادي
             //Property → فيها logic(get / set)
             //example:
-        //    private double price;
+            //    private double price;
 
-        //public double Price
-        //{
-        //    get { return price; }
-        //    set { if (value > 0) price = value; }
-        //}
+            //public double Price
+            //{
+            //    get { return price; }
+            //    set { if (value > 0) price = value; }
+            //}
 
-        //public double PriceAfterTax
-        //{
-        //    get { return price * 1.14; }
-        //}
+            //public double PriceAfterTax
+            //{
+            //    get { return price * 1.14; }
+            //}
 
             #endregion
 
-    }
+            #region Quesion 3
+
+            //ده اسمه Indexer
+            //وبيخليك تتعامل مع الكلاس زي array
+            //b) هيعمل ايرور
+            //الحل: set
+            //{
+            //    if (index >= 0 && index < names.Length)
+            //        names[index] = value;
+            //}
+            //c) اه ممكن
+            #endregion
+
+        }
     }
 }
